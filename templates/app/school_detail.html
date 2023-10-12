@@ -30,8 +30,8 @@
             <h1>name of the student is {{st.Stname}}</h1>
             <h1>age of student is {{st.Stage}}</h1>
         {% endfor %}
-
-
+<h1><a href="{% url 'update' pk=schoolobj.pk %}"class="btn btn-danger">Update</a></h1>
+<h1><a href="{% url 'delete' pk=schoolobj.pk %}"class="btn btn-danger">Delete</a></h1>
 
 
 
